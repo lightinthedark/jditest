@@ -1,0 +1,20 @@
+ip: 192.168.100.100
+hostname: local.puphpet
+local: c:/jditest/htdocs -> guest: /var/www/jdi
+
+ngix-
+ name / alias: test.jdi, www.test.jdi
+ doc root: /var/www/jdi
+ port: 80
+
+php 5.6
+
+mysql 5.6-
+ root pwd: 123
+ user: dbuser (all privs)
+ pwd: 123
+ db: jdidb
+
+redis-
+ port: 6379
+
