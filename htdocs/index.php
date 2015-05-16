@@ -1,1 +1,19 @@
-hello world
+hello world<br />
+
+<?php
+echo time().' - '.ini_get( 'display_errors' ).'<br />';
+echo $foo;
+phpinfo();
+
+use Phalcon\Mvc\Controller;
+
+class IndexController extends Controller
+{
+
+    public function indexAction()
+    {
+        echo "<h1>Hello!</h1>";
+    }
+
+}
+?>
