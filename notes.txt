@@ -28,3 +28,16 @@ compiled phalcon in:
 Installing shared extensions:     /usr/lib/php5/20131226/
 Installing header files:          /usr/include/php5/
 
+
+
+TODO:
+
+* learn Phalcon
+* create API (probably use js to trigger get / post actions and update div on page with results)
+* phpunit tests
+* redis for caching
+
+* puppet-ise mysql config
+* puppet-ise mysql user config (root has grant from %, dbuser has no global, only jdidb privs)
+
+* put on github
