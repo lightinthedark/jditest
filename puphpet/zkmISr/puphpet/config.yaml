@@ -30,7 +30,7 @@ vagrantfile:
                     - '--parser future'
         synced_folder:
             vflsf_38ezclg5fsrn:
-                source: 'c:/jditest/htdocs'
+                source: 'c:/jditest/test'
                 target: /var/www/jdi
                 sync_type: default
                 rsync:
@@ -86,7 +86,7 @@ nginx:
             server_name: test.jdi
             server_aliases:
                 - www.test.jdi
-            www_root: /var/www/jdi
+            www_root: /var/www/jdi/htdocs
             listen_port: '80'
             index_files:
                 - index.html

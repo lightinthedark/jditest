@@ -15,7 +15,7 @@ mysql 5.6-
  pwd: 123
  db: jdidb
 
-(puppet-ise this?)
+(puppet-ise this?)	
 #bind-address = 127.0.0.1
 #skip-external-locking
 
@@ -39,5 +39,6 @@ TODO:
 
 * puppet-ise mysql config
 * puppet-ise mysql user config (root has grant from %, dbuser has no global, only jdidb privs)
+* puppet-ise nginx config
 
 * put on github
