@@ -2,8 +2,6 @@ hello world<br />
 
 <?php
 echo time().' - '.ini_get( 'display_errors' ).'<br />';
-echo $foo;
-phpinfo();
 
 use Phalcon\Mvc\Controller;
 

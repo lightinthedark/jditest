@@ -5,6 +5,9 @@ git clone git://github.com/phalcon/cphalcon.git
 cd cphalcon/build
 ./install
 
+service php5-dev restart
+service nginx restart
+
 # apt-get -y install software-properties-common python-software-properties
 # apt-add-repository ppa:phalcon/stable -y
 # apt-get update

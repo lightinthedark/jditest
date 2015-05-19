@@ -15,6 +15,10 @@ mysql 5.6-
  pwd: 123
  db: jdidb
 
+(puppet-ise this?)
+#bind-address = 127.0.0.1
+#skip-external-locking
+
 redis-
  port: 6379
 
